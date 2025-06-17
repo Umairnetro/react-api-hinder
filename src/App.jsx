@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <section>
-        <p>This is my greeting: `${api}`</p>
+        <p>This is my greeting: {`${api}`}</p>
         <p>This is my Vite greeting: {`${ViteApi}`}</p>
       </section>
     </>
