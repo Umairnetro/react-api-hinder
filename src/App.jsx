@@ -1,11 +1,11 @@
 import "./App.css";
 
 function App() {
-  console.log(import.meta.env.VITE_tester_api);
-
   return (
     <>
-      <h1>API Hider</h1>
+      <section>
+        <p>This is my greeting: {process.env.REACT_APP_GREETING}</p>
+      </section>
     </>
   );
 }
